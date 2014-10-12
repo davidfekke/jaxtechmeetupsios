@@ -18,7 +18,50 @@
         UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
         splitViewController.delegate = (id)navigationController.topViewController;
     }
+    
+    if ([application respondsToSelector:@selector(registerForRemoteNotifications)]) {
+        [[UIApplication sharedApplication] registerForRemoteNotifications];
+    }
+    if ([application respondsToSelector:@selector(registerUserNotificationSettings:)]) {
+        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:(   UIUserNotificationTypeAlert | UIUserNotificationTypeBadge | UIUserNotificationTypeSound) categories:nil];
+        [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
+    } else {
+        UIRemoteNotificationType myTypes = UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeSound;
+        [[UIApplication sharedApplication]  registerForRemoteNotificationTypes:myTypes];
+    }
     return YES;
+}
+
+-(void) application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+{
+    
+    NSString *deviceTokenString = [NSString stringWithFormat:@"%@", deviceToken];
+    NSURL *url = [NSURL URLWithString:@"http://jaxtechmeetups.com/token/iostoken"];
+    
+    NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:url];
+    [urlRequest setHTTPMethod:@"POST"];
+    [urlRequest setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+    [urlRequest setValue:@"application/json; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
+    
+    NSError *err = nil;
+    
+    NSDictionary *bodyDict = @{
+                               @"id": deviceTokenString
+                               };
+    NSData *bodyData = [NSJSONSerialization dataWithJSONObject:bodyDict options:kNilOptions error:&err];
+    [urlRequest setHTTPBody:bodyData];
+    
+    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    
+    NSLog(@"Send Async call to http://jaxtechmeetups.com/token/iostoken");
+    [NSURLConnection sendAsynchronousRequest:urlRequest queue:queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *error)
+     {
+         NSLog(@"Updated token value");
+     }];
+}
+
+-(void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
+    NSLog(@"Unable to register");
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

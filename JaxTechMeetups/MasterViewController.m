@@ -30,11 +30,36 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+//    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+//
+//    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
+//    self.navigationItem.rightBarButtonItem = addButton;
+//    self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    //NSURL *myURL = [NSURL URLWithString:@"https://api.meetup.com/2/open_events?key=71453431395662501f61504236216c32&sign=true&category=34&zip=32246&radius=25&page=50"];
+    NSURL *myURL = [NSURL URLWithString:@"http://api.meetup.com/2/open_events?status=upcoming&radius=50.0&category=34&and_text=False&limited_events=False&desc=False&offset=0&format=json&zip=32246&page=50&sig_id=6582383&sig=c1cb69623c4fd7d236ed95f5282d03fb517e0983"];
+    //NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:myURL];
+    //[request setHTTPMethod:@"GET"];
+    //[request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+    NSError *myErr;
+    //NSURLResponse *response = nil;
+    
+    //NSData *myData = [NSData dataWithContentsOfURL:myURL];
+    //NSDictionary *myDict = [NSJSONSerialization JSONObjectWithData:myData options:NSJSONReadingMutableLeaves error:&myErr];
+    
 
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
-    self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    NSString *string = [NSString stringWithContentsOfURL:myURL encoding:NSISOLatin1StringEncoding error:&myErr];
+    
+    NSData *eventData = [string dataUsingEncoding:NSUTF8StringEncoding];
+    
+    id jsonObject = [NSJSONSerialization JSONObjectWithData:eventData options:kNilOptions error:&myErr];
+
+    
+    
+    //NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&myErr];
+    //NSString *myResult = [[NSString alloc] initWithData:myData encoding:NSUTF8StringEncoding];
+    _objects = [jsonObject valueForKey:@"results"];
+    //_objects = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&myErr];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -69,8 +94,8 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
 
-    NSDate *object = _objects[indexPath.row];
-    cell.textLabel.text = [object description];
+    NSString *object = [_objects[indexPath.row] valueForKey:@"name"];
+    cell.textLabel.text = object; //[object description];
     return cell;
 }
 
@@ -109,7 +134,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        NSDate *object = _objects[indexPath.row];
+        NSObject *object = _objects[indexPath.row];
         self.detailViewController.detailItem = object;
     }
 }
@@ -118,7 +143,7 @@
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = _objects[indexPath.row];
+        NSObject *object = _objects[indexPath.row];
         [[segue destinationViewController] setDetailItem:object];
     }
 }
