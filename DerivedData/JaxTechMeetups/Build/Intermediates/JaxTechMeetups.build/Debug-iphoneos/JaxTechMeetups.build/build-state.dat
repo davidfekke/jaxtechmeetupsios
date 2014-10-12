@@ -1,918 +1,0 @@
-TJaxTechMeetups
-v6
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/ResourceRules.plist
-cProcessPCH /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-aaopidmfsrctonermsmalicydand/JaxTechMeetups-Prefix.pch.pch JaxTechMeetups/JaxTechMeetups-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/AppDelegate.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/MasterViewController.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/main.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/DetailViewController.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups normal arm64
-cGenerateDSYMFile /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app.dSYM /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups
-cCompileStoryboard /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Base.lproj/Main_iPad.storyboard
-cCompileStoryboard /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Base.lproj/Main_iPhone.storyboard
-cCopyStringsFile /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/en.lproj/InfoPlist.strings JaxTechMeetups/en.lproj/InfoPlist.strings
-cCompileAssetCatalog /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Images.xcassets
-cProcessInfoPlistFile /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/Info.plist /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/JaxTechMeetups-Info.plist
-cProcessProductPackaging /Users/david/Library/MobileDevice/Provisioning\ Profiles/78FEAC8A-9E7D-42C6-9648-21BCAD122E4C.mobileprovision /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision
-cTouch /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups.xcent
-cCodeSign /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
-c00000000521BCCE10000000000000110
-t1377553633
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
-c00000000522ACBFD0000000000000094
-t1378536445
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
-c00000000522ACBFD0000000000000096
-t1378536445
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
-c00000000522ACBFD000000000000036B
-t1378536445
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000522ACC01000000000000019E
-t1378536449
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c00000000522ACC070000000000632E40
-t1378536455
-s6499904
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c00000000522ACC08000000000079BFF0
-t1378536456
-s7978992
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000522ACC0900000000004D6390
-t1378536457
-s5071760
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-c00000000522ACC0A000000000042AD60
-t1378536458
-s4369760
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-c00000000522ACC0C0000000000306290
-t1378536460
-s3170960
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c00000000522ACC0C000000000006F7F0
-t1378536460
-s456688
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000522ACC0D0000000000A8EAD0
-t1378536461
-s11070160
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c00000000522ACC130000000000046ED0
-t1378536467
-s290512
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c00000000522ACC14000000000063D6D0
-t1378536468
-s6543056
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
-c00000000522ACC15000000000017D8E0
-t1378536469
-s1562848
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000522ACC190000000002597C70
-t1378536473
-s39418992
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-c00000000522ACC2C0000000000387AD0
-t1378536492
-s3701456
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
-c00000000522ACC47000000000001D2B0
-t1378536519
-s119472
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
-c00000000522ACC4C000000000054C820
-t1378536524
-s5556256
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
-c00000000522ACC4C0000000000028490
-t1378536524
-s165008
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
-c00000000522ACC4C00000000000472B0
-t1378536524
-s291504
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
-c00000000522ACC4D000000000003EB80
-t1378536525
-s256896
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
-c00000000522ACC4D000000000002AEE0
-t1378536525
-s175840
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
-c00000000522ACC4D00000000000E2F20
-t1378536525
-s929568
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
-c00000000522ACC4D00000000000A1FC0
-t1378536525
-s663488
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
-c00000000522ACC4D000000000001D770
-t1378536525
-s120688
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
-c00000000522ACC4D000000000000BF00
-t1378536525
-s48896
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
-c00000000522ACC4D0000000000034100
-t1378536525
-s213248
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
-c00000000522ACC4D0000000000023D40
-t1378536525
-s146752
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
-c00000000522ACC4D000000000001D1B0
-t1378536525
-s119216
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
-c00000000522ACC4D0000000000051110
-t1378536525
-s332048
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
-c00000000522ACC4D0000000000017E90
-t1378536525
-s97936
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
-c00000000522ACC4D00000000001BA370
-t1378536525
-s1811312
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
-c00000000522ACC4D000000000001EFF0
-t1378536525
-s126960
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
-c00000000522ACC4D000000000002FA40
-t1378536525
-s195136
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
-c00000000522ACC4D000000000008B3E0
-t1378536525
-s570336
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
-c00000000522ACC4D00000000000B60D0
-t1378536525
-s745680
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
-c00000000522ACC4D0000000000078620
-t1378536525
-s493088
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
-c00000000522ACC4D0000000000060810
-t1378536525
-s395280
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
-c00000000522ACC4E00000000000B6B40
-t1378536526
-s748352
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
-c00000000522ACC4E0000000000039D00
-t1378536526
-s236800
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
-c00000000522ACC4E000000000003E940
-t1378536526
-s256320
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
-c00000000522ACC4E000000000002FC00
-t1378536526
-s195584
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
-c00000000522ACC4E000000000001D9D0
-t1378536526
-s121296
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
-c00000000522ACC4E000000000001EDE0
-t1378536526
-s126432
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
-c00000000522ACC4E00000000000213C0
-t1378536526
-s136128
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
-c00000000522ACC4E00000000000ADAC0
-t1378536526
-s711360
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
-c00000000520D88540000000000000AC9
-t1376618580
-s2761
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-c00000000522ACBD30000000000005004
-t1378536403
-s20484
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups.xcent
-t1380572506
-s480
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/AppDelegate.o
-t1380572505
-s74544
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/DetailViewController.o
-t1380572505
-s67864
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/JaxTechMeetups.LinkFileList
-c000000005249DD5700000000000002CF
-t1380572503
-s719
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/MasterViewController.o
-t1380572505
-s71268
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/main.o
-t1380572505
-s4264
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/AppDelegate.o
-t1380426904
-s69176
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/DetailViewController.o
-t1380492799
-s64948
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/JaxTechMeetups.LinkFileList
-c000000005247A49700000000000002D3
-t1380426903
-s723
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/MasterViewController.o
-t1380492799
-s68448
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/main.o
-t1380426904
-s3764
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/assetcatalog_dependencies.txt
-t1380426907
-s459
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/assetcatalog_generated_info.plist
-t1380426907
-s525
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-aaopidmfsrctonermsmalicydand/JaxTechMeetups-Prefix.pch.pch
-t1380572505
-s95416
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-clxnljncjtltzqdporfnqutmvsfx/JaxTechMeetups-Prefix.pch.pch
-t1380426904
-s80460
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app
-t1380572744
-s408
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app.dSYM
-t1380572531
-s102
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/Base.lproj/Main_iPad.storyboardc
-t1380492804
-s204
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/Base.lproj/Main_iPhone.storyboardc
-t1380492804
-s238
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/Info.plist
-t1380427789
-s1691
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups
-t1380572507
-s74704
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/PkgInfo
-t1380427789
-s8
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/ResourceRules.plist
-t1380426903
-s150
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision
-t1380572744
-s7840
-
-N/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/en.lproj/InfoPlist.strings
-t1380426905
-s42
-
-N/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.h
-c0000000052473F0C0000000000000124
-t1380400908
-s292
-
-N/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m
-c000000005247A47A0000000000000B08
-t1380426874
-s2824
-
-N/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Base.lproj/Main_iPad.storyboard
-c0000000052488C4700000000000021E0
-t1380486215
-s8672
-
-N/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Base.lproj/Main_iPhone.storyboard
-c000000005248903900000000000027B1
-t1380487225
-s10161
-
-N/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.h
-c0000000052488F6C0000000000000275
-t1380487020
-s629
-
-N/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m
-c000000005248A5800000000000000A69
-t1380492672
-s2665
-
-N/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Images.xcassets
-c0000000052473F0C0000000000000088
-t1380400908
-s136
-
-N/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/JaxTechMeetups-Info.plist
-c000000005247A7CC00000000000006F8
-t1380427724
-s1784
-
-N/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/JaxTechMeetups-Prefix.pch
-c0000000052473F0C0000000000000158
-t1380400908
-s344
-
-N/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.h
-c0000000052473F0C0000000000000160
-t1380400908
-s352
-
-N/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m
-c0000000052488D7F00000000000015F3
-t1380486527
-s5619
-
-N/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/en.lproj/InfoPlist.strings
-c0000000052473F0C000000000000002D
-t1380400908
-s45
-
-N/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m
-c0000000052473F0C0000000000000160
-t1380400908
-s352
-
-N/Users/david/Library/MobileDevice/Provisioning Profiles/12B16291-09AF-44EC-9019-B1C962F5F925.mobileprovision
-c000000005247A7C70000000000001E64
-t1380427719
-s7780
-
-N/Users/david/Library/MobileDevice/Provisioning Profiles/45D53BB3-24AA-4F32-848B-5ABFA697441F.mobileprovision
-c00000000523DCC410000000000001E1D
-t1379781697
-s7709
-
-N/Users/david/Library/MobileDevice/Provisioning Profiles/78FEAC8A-9E7D-42C6-9648-21BCAD122E4C.mobileprovision
-c000000005249DE2F0000000000001EA0
-t1380572719
-s7840
-
-CBuild AST from /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m
-r0
-
-CBuild AST from /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m
-r0
-
-CBuild AST from /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m
-r0
-
-CBuild AST from /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf29815c815fab741^63291ec815fab741^---0#1#1#--18"Check dependencies36"7A84CF4D-BFB3-4C33-A66F-BA4F0F60FDCC-
-
-CCodeSign /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app
-s402265544.142297
-e402265544.337732
-r1
-xCodeSign
-x/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app
-o/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app: replacing existing signature
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CodeSign DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app84"CodeSign DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app5e8124c815fab741^ef7556c815fab741^-144"/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app: replacing existing signature-0#0#1#-19%DVTDocumentLocation2@121"file:///Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/0000000000000000^1122"CodeSign DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app    cd /Users/david/Documents/JaxTechMeetups    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: David Fekke (2ZJQ852UHC)" and provisioning profile "JaxTechProfile" (78FEAC8A-9E7D-42C6-9648-21BCAD122E4C)    codesign --force --sign 8AFC14D53B326032A6F68610688C7A29DAA751EC --resource-rules=/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/ResourceRules.plist --entitlements /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups.xcent /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app36"6D3B013D-E9ED-4156-93E8-E252C0ED39AF-
-bEEF6D84A-06A7-4D89-85EB-841D5344E956
-
-CCompileAssetCatalog /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Images.xcassets
-s402119705.624418
-e402119707.146873
-r1
-xCompileAssetCatalog
-x/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app
-x/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Images.xcassets
-o/* com.apple.actool.compilation-results */
-o/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/LaunchImage-700-568h@2x.png
-o/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/Assets.car
-o/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/assetcatalog_generated_info.plist
-o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"CompileAssetCatalog DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app JaxTechMeetups/Images.xcassets126"CompileAssetCatalog DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app JaxTechMeetups/Images.xcassets52f19f19dcf7b741^319a251bdcf7b741^-487"/* com.apple.actool.compilation-results *//Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/LaunchImage-700-568h@2x.png/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/Assets.car/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@76"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Images.xcassets/0000000000000000^1231"CompileAssetCatalog DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app JaxTechMeetups/Images.xcassets    cd /Users/david/Documents/JaxTechMeetups    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.0 --target-device iphone --target-device ipad --compress-pngs --compile /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Images.xcassets36"8097696C-8546-4198-912F-EBA7BC486187-
-bFB7C3B52-E23D-43FB-8374-4E319A38194C
-
-CCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/AppDelegate.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s402265305.763135
-e402265305.950890
-r1
-xCompileC
-xDerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/AppDelegate.o
-x/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.h
-o/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m:29:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
-o    NSLog(deviceTokenString);
-o          ^~~~~~~~~~~~~~~~~
-o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m245"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/AppDelegate.o JaxTechMeetups/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler5281c3d914fab741^986df3d914fab741^-243"/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m:29:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]    NSLog(deviceTokenString);          ^~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@60"Format string is not a string literal (potentially insecure)-402265305#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@73"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m0000000000000000^28#10#28#10#1180#0#19"Format String Issue1(3@73"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m0000000000000000^28#10#28#27#1180#0#-0#0#1#-19%DVTDocumentLocation4@73"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m0000000000000000^4000"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/AppDelegate.o JaxTechMeetups/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/Documents/JaxTechMeetups    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/david/Documents/JaxTechMeetups/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-generated-files.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-own-target-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-all-target-headers.hmap -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-project-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources/arm64 -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources -F/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos -include /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-aaopidmfsrctonermsmalicydand/JaxTechMeetups-Prefix.pch -MMD -MT dependencies -MF /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/AppDelegate.d --serialize-diagnostics /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/AppDelegate.dia -c /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/AppDelegate.o36"2A60798D-7082-42E6-BB10-2493E3569850-
-b7553E8FB-F8B7-438C-BD86-44422FB4A9C9
-
-CCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/DetailViewController.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s402265305.763984
-e402265305.956240
-r1
-xCompileC
-xDerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/DetailViewController.o
-x/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m263"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/DetailViewController.o JaxTechMeetups/DetailViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler34bec3d914fab741^42cdf4d914fab741^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m0000000000000000^4054"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/DetailViewController.o JaxTechMeetups/DetailViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/Documents/JaxTechMeetups    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/david/Documents/JaxTechMeetups/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-generated-files.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-own-target-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-all-target-headers.hmap -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-project-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources/arm64 -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources -F/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos -include /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-aaopidmfsrctonermsmalicydand/JaxTechMeetups-Prefix.pch -MMD -MT dependencies -MF /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/DetailViewController.d --serialize-diagnostics /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/DetailViewController.dia -c /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/DetailViewController.o36"B7C1FBB0-948D-478C-B1B3-F2548FB6122E-
-b7553E8FB-F8B7-438C-BD86-44422FB4A9C9
-
-CCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/MasterViewController.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s402265305.763392
-e402265305.961145
-r1
-xCompileC
-xDerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/MasterViewController.o
-x/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.h
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m263"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/MasterViewController.o JaxTechMeetups/MasterViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd68dc3d914fab741^cc24f6d914fab741^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m0000000000000000^4054"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/MasterViewController.o JaxTechMeetups/MasterViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/Documents/JaxTechMeetups    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/david/Documents/JaxTechMeetups/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-generated-files.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-own-target-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-all-target-headers.hmap -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-project-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources/arm64 -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources -F/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos -include /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-aaopidmfsrctonermsmalicydand/JaxTechMeetups-Prefix.pch -MMD -MT dependencies -MF /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/MasterViewController.d --serialize-diagnostics /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/MasterViewController.dia -c /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/MasterViewController.o36"556FA234-875E-48D0-8DB1-0DC9F0F4CF49-
-b7553E8FB-F8B7-438C-BD86-44422FB4A9C9
-
-CCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/main.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s402265305.763642
-e402265305.938178
-r1
-xCompileC
-xDerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/main.o
-x/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m231"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/main.o JaxTechMeetups/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd3a1c3d914fab741^3d2cf0d914fab741^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m0000000000000000^3958"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/main.o JaxTechMeetups/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/Documents/JaxTechMeetups    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/david/Documents/JaxTechMeetups/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-generated-files.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-own-target-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-all-target-headers.hmap -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-project-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources/arm64 -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources -F/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos -include /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-aaopidmfsrctonermsmalicydand/JaxTechMeetups-Prefix.pch -MMD -MT dependencies -MF /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/main.dia -c /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/main.o36"EF4A7304-FB2B-4DD4-BBE5-D3B1E5AE496D-
-b7553E8FB-F8B7-438C-BD86-44422FB4A9C9
-
-CCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7/AppDelegate.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7/DetailViewController.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7/MasterViewController.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7/main.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/AppDelegate.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s402119704.527738
-e402119704.654848
-r1
-xCompileC
-xDerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/AppDelegate.o
-x/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.h
-o/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m:29:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
-o    NSLog(deviceTokenString);
-o          ^~~~~~~~~~~~~~~~~
-o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m247"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/AppDelegate.o JaxTechMeetups/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler59328718dcf7b741^a4a8a718dcf7b741^-243"/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m:29:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]    NSLog(deviceTokenString);          ^~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@60"Format string is not a string literal (potentially insecure)-402119704#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@73"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m0000000000000000^28#10#28#10#1180#0#19"Format String Issue1(3@73"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m0000000000000000^28#10#28#27#1180#0#-0#0#1#-19%DVTDocumentLocation4@73"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m0000000000000000^4007"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/AppDelegate.o JaxTechMeetups/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/Documents/JaxTechMeetups    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/david/Documents/JaxTechMeetups/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-generated-files.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-own-target-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-all-target-headers.hmap -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-project-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources/armv7s -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources -F/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos -include /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-clxnljncjtltzqdporfnqutmvsfx/JaxTechMeetups-Prefix.pch -MMD -MT dependencies -MF /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.m -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/AppDelegate.o36"8F4762F4-C75F-4A25-B3B0-9F242EA35833-
-bFB7C3B52-E23D-43FB-8374-4E319A38194C
-
-CCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/DetailViewController.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s402185598.314210
-e402185599.191272
-r1
-xCompileC
-xDerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/DetailViewController.o
-x/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m265"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/DetailViewController.o JaxTechMeetups/DetailViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerd385507eddf8b741^66f7307fddf8b741^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m0000000000000000^4061"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/DetailViewController.o JaxTechMeetups/DetailViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/Documents/JaxTechMeetups    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/david/Documents/JaxTechMeetups/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-generated-files.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-own-target-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-all-target-headers.hmap -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-project-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources/armv7s -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources -F/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos -include /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-clxnljncjtltzqdporfnqutmvsfx/JaxTechMeetups-Prefix.pch -MMD -MT dependencies -MF /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/DetailViewController.d --serialize-diagnostics /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/DetailViewController.dia -c /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.m -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/DetailViewController.o36"0B5E6FD8-2103-4786-A3D1-DD620CB7B707-
-b4CBA7600-7524-4F5A-AB13-46AF4BF244C6
-
-CCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/MasterViewController.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s402185598.313575
-e402185599.093180
-r1
-xCompileC
-xDerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/MasterViewController.o
-x/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.h
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/DetailViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m265"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/MasterViewController.o JaxTechMeetups/MasterViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilera75d507eddf8b741^1adb177fddf8b741^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m0000000000000000^4061"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/MasterViewController.o JaxTechMeetups/MasterViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/Documents/JaxTechMeetups    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/david/Documents/JaxTechMeetups/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-generated-files.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-own-target-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-all-target-headers.hmap -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-project-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources/armv7s -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources -F/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos -include /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-clxnljncjtltzqdporfnqutmvsfx/JaxTechMeetups-Prefix.pch -MMD -MT dependencies -MF /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/MasterViewController.d --serialize-diagnostics /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/MasterViewController.dia -c /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/MasterViewController.m -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/MasterViewController.o36"FE727CE7-DFA4-4C4B-BAAA-6B659048E03D-
-b4CBA7600-7524-4F5A-AB13-46AF4BF244C6
-
-CCompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/main.o /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s402119704.528225
-e402119704.641770
-r1
-xCompileC
-xDerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/main.o
-x/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/AppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m233"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/main.o JaxTechMeetups/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler16518718dcf7b741^7f4ba418dcf7b741^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m0000000000000000^3965"CompileC DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/main.o JaxTechMeetups/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/Documents/JaxTechMeetups    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/david/Documents/JaxTechMeetups/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-generated-files.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-own-target-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-all-target-headers.hmap -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-project-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources/armv7s -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources -F/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos -include /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-clxnljncjtltzqdporfnqutmvsfx/JaxTechMeetups-Prefix.pch -MMD -MT dependencies -MF /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/main.dia -c /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/main.m -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/main.o36"989C7600-D0B0-43CF-894F-E730E21A5983-
-bFB7C3B52-E23D-43FB-8374-4E319A38194C
-
-CCompileStoryboard /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Base.lproj/Main_iPad.storyboard
-s402185599.599069
-e402185604.238413
-r1
-xCompileStoryboard
-x/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Base.lproj/Main_iPad.storyboard
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CompileStoryboard JaxTechMeetups/Base.lproj/Main_iPad.storyboard64"CompileStoryboard JaxTechMeetups/Base.lproj/Main_iPad.storyboard766f997fddf8b741^70083d84ddf8b741^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Base.lproj/Main_iPad.storyboard0000000000000000^840"CompileStoryboard JaxTechMeetups/Base.lproj/Main_iPad.storyboard    cd /Users/david/Documents/JaxTechMeetups    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/Base.lproj/Main_iPad.storyboardc /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Base.lproj/Main_iPad.storyboard36"F7A015B3-E496-4EAD-979F-3C13D941886B-
-b4CBA7600-7524-4F5A-AB13-46AF4BF244C6
-
-CCompileStoryboard /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Base.lproj/Main_iPhone.storyboard
-s402185599.599198
-e402185604.239939
-r1
-xCompileStoryboard
-x/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Base.lproj/Main_iPhone.storyboard
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"CompileStoryboard JaxTechMeetups/Base.lproj/Main_iPhone.storyboard66"CompileStoryboard JaxTechMeetups/Base.lproj/Main_iPhone.storyboard5473997fddf8b741^4c6d3d84ddf8b741^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Base.lproj/Main_iPhone.storyboard0000000000000000^846"CompileStoryboard JaxTechMeetups/Base.lproj/Main_iPhone.storyboard    cd /Users/david/Documents/JaxTechMeetups    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/Base.lproj/Main_iPhone.storyboardc /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/Base.lproj/Main_iPhone.storyboard36"5F601E43-87BB-400A-92A2-EA71723678EC-
-b4CBA7600-7524-4F5A-AB13-46AF4BF244C6
-
-CCopyStringsFile /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/en.lproj/InfoPlist.strings JaxTechMeetups/en.lproj/InfoPlist.strings
-s402119705.623830
-e402119705.685504
-r1
-xCopyStringsFile
-x/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/en.lproj/InfoPlist.strings
-xJaxTechMeetups/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy JaxTechMeetups/en.lproj/InfoPlist.strings160"CopyStringsFile DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/en.lproj/InfoPlist.strings JaxTechMeetups/en.lproj/InfoPlist.stringsebc69f19dcf7b741^6cb1af19dcf7b741^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/en.lproj/InfoPlist.strings0000000000000000^652"CopyStringsFile DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/en.lproj/InfoPlist.strings JaxTechMeetups/en.lproj/InfoPlist.strings    cd /Users/david/Documents/JaxTechMeetups    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/en.lproj -- JaxTechMeetups/en.lproj/InfoPlist.strings36"7FF154AC-7739-4178-B135-FAF2C718D78D-
-bFB7C3B52-E23D-43FB-8374-4E319A38194C
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/ResourceRules.plist
-s402119703.046930
-e402119703.047870
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
-xDerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/ResourceRules.plist228"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/ResourceRules.plistd3110c17dcf7b741^8c860c17dcf7b741^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/ResourceRules.plist0034d400dfffdf42^810"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/ResourceRules.plist    cd /Users/david/Documents/JaxTechMeetups    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app36"B5717C16-542A-40D0-9DFF-5B67FD129746-
-bFB7C3B52-E23D-43FB-8374-4E319A38194C
-
-CCreateUniversalBinary /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups normal armv7\ armv7s\ arm64
-r0
-
-CGenerateDSYMFile /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app.dSYM /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups
-s402265331.304749
-e402265331.324064
-r1
-xGenerateDSYMFile
-x/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app.dSYM
-x/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Generate /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app.dSYM188"GenerateDSYMFile DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app.dSYM DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetupse0104ef314fab741^94f652f314fab741^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app.dSYM/0000000000000000^773"GenerateDSYMFile DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app.dSYM DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups    cd /Users/david/Documents/JaxTechMeetups    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app.dSYM36"0A8EDE86-39AB-42B9-BC2D-3C196F9A7FA4-
-b8748AA93-153E-46C3-9F1F-E9EA79BF61DE
-
-CLd /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/JaxTechMeetups normal arm64
-r0
-
-CLd /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7/JaxTechMeetups normal armv7
-r0
-
-CLd /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/JaxTechMeetups normal armv7s
-r0
-
-CLd /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups normal arm64
-s402265305.962108
-e402265306.679730
-r1
-xLd
-x/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups
-xnormal
-xarm64
-d/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/JaxTechMeetups.LinkFileList
-d/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/AppDelegate.o
-d/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/MasterViewController.o
-d/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/main.o
-d/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/DetailViewController.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Link /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups106"Ld DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups normal arm643d64f6d914fab741^9203aeda14fab741^---0#0#1#--1496"Ld DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups normal arm64    cd /Users/david/Documents/JaxTechMeetups    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos -F/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos -filelist /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/JaxTechMeetups.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/arm64/JaxTechMeetups_dependency_info.dat -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups36"F02ADCDC-5DCF-41CA-A627-AB46EF246371-
-b7553E8FB-F8B7-438C-BD86-44422FB4A9C9
-
-CLd /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups normal armv7s
-s402185599.201484
-e402185599.569688
-r1
-xLd
-x/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups
-xnormal
-xarmv7s
-d/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/JaxTechMeetups.LinkFileList
-d/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/AppDelegate.o
-d/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/MasterViewController.o
-d/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/main.o
-d/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/DetailViewController.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Link /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups107"Ld DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups normal armv7sc2a5337fddf8b741^1fd8917fddf8b741^---0#0#1#--1500"Ld DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups normal armv7s    cd /Users/david/Documents/JaxTechMeetups    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos -F/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos -filelist /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/JaxTechMeetups.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/Objects-normal/armv7s/JaxTechMeetups_dependency_info.dat -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/JaxTechMeetups36"87B96417-1B59-46E8-BDE1-ED27B2178FCF-
-b4CBA7600-7524-4F5A-AB13-46AF4BF244C6
-
-CProcessInfoPlistFile /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/Info.plist /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/JaxTechMeetups-Info.plist
-s402120589.077996
-e402120589.092758
-r1
-xProcessInfoPlistFile
-x/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/Info.plist
-x/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/JaxTechMeetups-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Process /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/JaxTechMeetups-Info.plist148"ProcessInfoPlistFile DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/Info.plist JaxTechMeetups/JaxTechMeetups-Info.plist1004148ddff7b741^b7621b8ddff7b741^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/JaxTechMeetups-Info.plist0000000000000000^1159"ProcessInfoPlistFile DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/Info.plist JaxTechMeetups/JaxTechMeetups-Info.plist    cd /Users/david/Documents/JaxTechMeetups    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/JaxTechMeetups-Info.plist -genpkginfo /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/ResourceRules.plist -additionalcontentfile /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/assetcatalog_generated_info.plist -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/Info.plist36"58C07FA7-6DE7-499E-8C82-01F6B2B1CF1F-
-bF5C83C65-6627-4087-9DD9-2D50B79A41FF
-
-CProcessPCH /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-aaopidmfsrctonermsmalicydand/JaxTechMeetups-Prefix.pch.pch JaxTechMeetups/JaxTechMeetups-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s402265303.923876
-e402265305.762410
-r1
-xProcessPCH
-x/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-aaopidmfsrctonermsmalicydand/JaxTechMeetups-Prefix.pch.pch
-xJaxTechMeetups/JaxTechMeetups-Prefix.pch
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/JaxTechMeetups-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile JaxTechMeetups/JaxTechMeetups-Prefix.pch267"ProcessPCH DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-aaopidmfsrctonermsmalicydand/JaxTechMeetups-Prefix.pch.pch JaxTechMeetups/JaxTechMeetups-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler1572edd714fab741^0a2dc3d914fab741^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/JaxTechMeetups-Prefix.pch0000000000000000^3871"ProcessPCH DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-aaopidmfsrctonermsmalicydand/JaxTechMeetups-Prefix.pch.pch JaxTechMeetups/JaxTechMeetups-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/Documents/JaxTechMeetups    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/david/Documents/JaxTechMeetups/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-generated-files.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-own-target-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-all-target-headers.hmap -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-project-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources/arm64 -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources -F/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-aaopidmfsrctonermsmalicydand/JaxTechMeetups-Prefix.pch.dia -MMD -MT dependencies -MF /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-aaopidmfsrctonermsmalicydand/JaxTechMeetups-Prefix.pch.d -c /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/JaxTechMeetups-Prefix.pch -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-aaopidmfsrctonermsmalicydand/JaxTechMeetups-Prefix.pch.pch36"91E5D3A9-823E-4047-B1D9-D5D6703911C4-
-b7553E8FB-F8B7-438C-BD86-44422FB4A9C9
-
-CProcessPCH /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-bsrqxuxkdgjlzibbcxubaewtndfo/JaxTechMeetups-Prefix.pch.pch JaxTechMeetups/JaxTechMeetups-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-clxnljncjtltzqdporfnqutmvsfx/JaxTechMeetups-Prefix.pch.pch JaxTechMeetups/JaxTechMeetups-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s402119703.048420
-e402119704.527101
-r1
-xProcessPCH
-x/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-clxnljncjtltzqdporfnqutmvsfx/JaxTechMeetups-Prefix.pch.pch
-xJaxTechMeetups/JaxTechMeetups-Prefix.pch
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/david/Documents/JaxTechMeetups/JaxTechMeetups/JaxTechMeetups-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile JaxTechMeetups/JaxTechMeetups-Prefix.pch268"ProcessPCH DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-clxnljncjtltzqdporfnqutmvsfx/JaxTechMeetups-Prefix.pch.pch JaxTechMeetups/JaxTechMeetups-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerd5790c17dcf7b741^cbf58618dcf7b741^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/david/Documents/JaxTechMeetups/JaxTechMeetups/JaxTechMeetups-Prefix.pch0000000000000000^3874"ProcessPCH DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-clxnljncjtltzqdporfnqutmvsfx/JaxTechMeetups-Prefix.pch.pch JaxTechMeetups/JaxTechMeetups-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/david/Documents/JaxTechMeetups    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/david/Documents/JaxTechMeetups/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-generated-files.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-own-target-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-all-target-headers.hmap -iquote /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups-project-headers.hmap -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources/armv7s -I/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/DerivedSources -F/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-clxnljncjtltzqdporfnqutmvsfx/JaxTechMeetups-Prefix.pch.dia -MMD -MT dependencies -MF /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-clxnljncjtltzqdporfnqutmvsfx/JaxTechMeetups-Prefix.pch.d -c /Users/david/Documents/JaxTechMeetups/JaxTechMeetups/JaxTechMeetups-Prefix.pch -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/PrecompiledHeaders/JaxTechMeetups-Prefix-clxnljncjtltzqdporfnqutmvsfx/JaxTechMeetups-Prefix.pch.pch36"ED7E3532-3CA0-4FAD-97EB-DA99964A0070-
-bFB7C3B52-E23D-43FB-8374-4E319A38194C
-
-CProcessPCH /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Index/PrecompiledHeaders/JaxTechMeetups-Prefix-ednclbtybbsbhkgefotcleuwdxqj_ast/JaxTechMeetups-Prefix.pch.pch JaxTechMeetups/JaxTechMeetups-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Index/PrecompiledHeaders/JaxTechMeetups-Prefix-fzdtjblpoyvabuavyvtfyobjehhp_ast/JaxTechMeetups-Prefix.pch.pch JaxTechMeetups/JaxTechMeetups-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Index/PrecompiledHeaders/JaxTechMeetups-Prefix-gwvazkhqbuhyjocvrsdcsixjpnmd_ast/JaxTechMeetups-Prefix.pch.pch JaxTechMeetups/JaxTechMeetups-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups.xcent
-s402265306.755297
-e402265306.758369
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
-x/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection269"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups.xcent269"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups.xcent5d6dc1da14fab741^dd24c2da14fab741^---0#0#1#-19%DVTDocumentLocation2@169"file:///Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups.xcent0000000000000000^852"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups.xcent    cd /Users/david/Documents/JaxTechMeetups    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Intermediates/JaxTechMeetups.build/Debug-iphoneos/JaxTechMeetups.build/JaxTechMeetups.xcent36"D534294C-C81E-4CA5-B316-97582E95C398-
-b7553E8FB-F8B7-438C-BD86-44422FB4A9C9
-
-CProcessProductPackaging /Users/david/Library/MobileDevice/Provisioning\ Profiles/12B16291-09AF-44EC-9019-B1C962F5F925.mobileprovision /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision
-s402120589.093109
-e402120589.094205
-r1
-xProcessProductPackaging
-x/Users/david/Library/MobileDevice/Provisioning Profiles/12B16291-09AF-44EC-9019-B1C962F5F925.mobileprovision
-x/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection234"ProcessProductPackaging /Users/david/Library/MobileDevice/Provisioning\ Profiles/12B16291-09AF-44EC-9019-B1C962F5F925.mobileprovision DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision234"ProcessProductPackaging /Users/david/Library/MobileDevice/Provisioning\ Profiles/12B16291-09AF-44EC-9019-B1C962F5F925.mobileprovision DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision3fe2178ddff7b741^73661b8ddff7b741^---0#0#1#-19%DVTDocumentLocation2@145"file:///Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision0000000000000000^756"ProcessProductPackaging /Users/david/Library/MobileDevice/Provisioning\ Profiles/12B16291-09AF-44EC-9019-B1C962F5F925.mobileprovision DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision    cd /Users/david/Documents/JaxTechMeetups    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/david/Library/MobileDevice/Provisioning\ Profiles/12B16291-09AF-44EC-9019-B1C962F5F925.mobileprovision -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision36"A68B86BB-960F-4DEA-9C81-9B6D2AB8F81E-
-bF5C83C65-6627-4087-9DD9-2D50B79A41FF
-
-CProcessProductPackaging /Users/david/Library/MobileDevice/Provisioning\ Profiles/45D53BB3-24AA-4F32-848B-5ABFA697441F.mobileprovision /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision
-s402119707.495179
-e402119707.512141
-r1
-xProcessProductPackaging
-x/Users/david/Library/MobileDevice/Provisioning Profiles/45D53BB3-24AA-4F32-848B-5ABFA697441F.mobileprovision
-x/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection234"ProcessProductPackaging /Users/david/Library/MobileDevice/Provisioning\ Profiles/45D53BB3-24AA-4F32-848B-5ABFA697441F.mobileprovision DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision234"ProcessProductPackaging /Users/david/Library/MobileDevice/Provisioning\ Profiles/45D53BB3-24AA-4F32-848B-5ABFA697441F.mobileprovision DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovisionccd27e1bdcf7b741^971c831bdcf7b741^---0#0#1#-19%DVTDocumentLocation2@145"file:///Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision0034d400dfffdf42^756"ProcessProductPackaging /Users/david/Library/MobileDevice/Provisioning\ Profiles/45D53BB3-24AA-4F32-848B-5ABFA697441F.mobileprovision DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision    cd /Users/david/Documents/JaxTechMeetups    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/david/Library/MobileDevice/Provisioning\ Profiles/45D53BB3-24AA-4F32-848B-5ABFA697441F.mobileprovision -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision36"B96C25EC-86DF-42B6-AD2E-52EC050CE581-
-bFB7C3B52-E23D-43FB-8374-4E319A38194C
-
-CProcessProductPackaging /Users/david/Library/MobileDevice/Provisioning\ Profiles/78FEAC8A-9E7D-42C6-9648-21BCAD122E4C.mobileprovision /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision
-s402265544.121831
-e402265544.141487
-r1
-xProcessProductPackaging
-x/Users/david/Library/MobileDevice/Provisioning Profiles/78FEAC8A-9E7D-42C6-9648-21BCAD122E4C.mobileprovision
-x/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection234"ProcessProductPackaging /Users/david/Library/MobileDevice/Provisioning\ Profiles/78FEAC8A-9E7D-42C6-9648-21BCAD122E4C.mobileprovision DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision234"ProcessProductPackaging /Users/david/Library/MobileDevice/Provisioning\ Profiles/78FEAC8A-9E7D-42C6-9648-21BCAD122E4C.mobileprovision DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision193d1fc815fab741^693924c815fab741^---0#0#1#-19%DVTDocumentLocation2@145"file:///Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision0000000000000000^756"ProcessProductPackaging /Users/david/Library/MobileDevice/Provisioning\ Profiles/78FEAC8A-9E7D-42C6-9648-21BCAD122E4C.mobileprovision DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision    cd /Users/david/Documents/JaxTechMeetups    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/david/Library/MobileDevice/Provisioning\ Profiles/78FEAC8A-9E7D-42C6-9648-21BCAD122E4C.mobileprovision -o /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app/embedded.mobileprovision36"1F28E3B8-D41D-41C2-9402-70602D92CBBD-
-bEEF6D84A-06A7-4D89-85EB-841D5344E956
-
-CTouch /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app
-s402185604.241164
-e402185604.254435
-r1
-xTouch
-x/Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Touch /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app81"Touch DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app5cca3d84ddf8b741^0c234184ddf8b741^---0#0#1#--451"Touch DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app    cd /Users/david/Documents/JaxTechMeetups    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/david/Documents/JaxTechMeetups/DerivedData/JaxTechMeetups/Build/Products/Debug-iphoneos/JaxTechMeetups.app36"14201CAF-2E2F-4DB3-83DB-0CD73422C5D0-
-b4CBA7600-7524-4F5A-AB13-46AF4BF244C6
-
