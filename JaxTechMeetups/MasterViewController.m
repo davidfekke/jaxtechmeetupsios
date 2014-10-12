@@ -29,36 +29,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-//    self.navigationItem.leftBarButtonItem = self.editButtonItem;
-//
-//    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-//    self.navigationItem.rightBarButtonItem = addButton;
-//    self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
-    //NSURL *myURL = [NSURL URLWithString:@"https://api.meetup.com/2/open_events?key=71453431395662501f61504236216c32&sign=true&category=34&zip=32246&radius=25&page=50"];
-    NSURL *myURL = [NSURL URLWithString:@"http://api.meetup.com/2/open_events?status=upcoming&radius=50.0&category=34&and_text=False&limited_events=False&desc=False&offset=0&format=json&zip=32246&page=50&sig_id=6582383&sig=c1cb69623c4fd7d236ed95f5282d03fb517e0983"];
-    //NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:myURL];
-    //[request setHTTPMethod:@"GET"];
-    //[request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
-    NSError *myErr;
-    //NSURLResponse *response = nil;
-    
-    //NSData *myData = [NSData dataWithContentsOfURL:myURL];
-    //NSDictionary *myDict = [NSJSONSerialization JSONObjectWithData:myData options:NSJSONReadingMutableLeaves error:&myErr];
-    
 
-    NSString *string = [NSString stringWithContentsOfURL:myURL encoding:NSISOLatin1StringEncoding error:&myErr];
-    
-    NSData *eventData = [string dataUsingEncoding:NSUTF8StringEncoding];
-    
-    id jsonObject = [NSJSONSerialization JSONObjectWithData:eventData options:kNilOptions error:&myErr];
+    //NSURL *myURL = [NSURL URLWithString:@"http://api.meetup.com/2/open_events?status=upcoming&radius=50.0&category=34&and_text=False&limited_events=False&desc=False&offset=0&format=json&zip=32246&page=50&sig_id=6582383&sig=c1cb69623c4fd7d236ed95f5282d03fb517e0983"];
+    //NSError *myErr;
 
+    //NSString *string = [NSString stringWithContentsOfURL:myURL encoding:NSISOLatin1StringEncoding error:&myErr];
+    
+    //NSData *eventData = [string dataUsingEncoding:NSUTF8StringEncoding];
+    
+    //id jsonObject = [NSJSONSerialization JSONObjectWithData:eventData options:kNilOptions error:&myErr];
+
+    //_objects = [jsonObject valueForKey:@"results"];
+    [self getAPIDataAsync];
     
     
-    //NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&myErr];
-    //NSString *myResult = [[NSString alloc] initWithData:myData encoding:NSUTF8StringEncoding];
-    _objects = [jsonObject valueForKey:@"results"];
-    //_objects = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&myErr];
+    UIRefreshControl *refreshControl = [[UIRefreshControl alloc] init];
+    [refreshControl addTarget:self action:@selector(refresh:) forControlEvents:UIControlEventValueChanged];
+    [self.tableView addSubview:refreshControl];
     
 }
 
@@ -66,6 +53,26 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)getAPIDataAsync
+{
+    NSURL *url = [NSURL URLWithString:@"http://api.meetup.com/2/open_events?status=upcoming&radius=50.0&category=34&and_text=False&limited_events=False&desc=False&offset=0&format=json&zip=32246&page=50&sig_id=6582383&sig=c1cb69623c4fd7d236ed95f5282d03fb517e0983"];
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
+    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    
+    [NSURLConnection sendAsynchronousRequest:urlRequest queue:queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *error)
+     {
+         NSError *myErr = nil;
+         id jsonObject = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&myErr];
+         _objects = [jsonObject valueForKey:@"results"];
+         [self.tableView performSelectorOnMainThread:@selector(reloadData) withObject:nil waitUntilDone:YES];
+     }];
+}
+
+- (void)refresh:(UIRefreshControl *)refreshControl {
+    [self getAPIDataAsync];
+    [refreshControl endRefreshing];
 }
 
 - (void)insertNewObject:(id)sender
